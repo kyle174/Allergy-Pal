@@ -1,7 +1,7 @@
 import openai
 from openai import OpenAI
 
-client = OpenAI(api_key="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")
+client = OpenAI(api_key="")
 
 def get_ingredients(food):
     stream = client.chat.completions.create(
